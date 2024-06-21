@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: app-go
-  namespace: default
+  namespace: staging
   labels:
     app: app-go
 spec:

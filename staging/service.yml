@@ -2,14 +2,14 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: app-go
-  namespace: default
+  name: app-go-svc
+  namespace: staging
 spec:
   selector:
     app: app-go
   type: ClusterIP
   ports:
-  - name: app-go
+  - name: http
     protocol: TCP
     port: 80
     targetPort: 8080
