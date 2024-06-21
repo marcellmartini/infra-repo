@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: app-go
-        image: marcellmartini/apps:sha-082bd4e
+        image: marcellmartini/apps:sha-3aceff8
         imagePullPolicy: IfNotPresent
         resources:
           requests:
